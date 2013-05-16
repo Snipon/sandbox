@@ -54,6 +54,10 @@ projects[unicorn][type] = theme
 projects[unicorn][download][type] = git
 projects[unicorn][download][url] =  git://github.com/Snipon/unicorn.git
 
+projects[unicorn][type] = profile
+projects[unicorn][download][type] = git
+projects[unicorn][download][url] =  git://github.com/Snipon/sandbox.git
+
 ;Libraries
 libraries[mootools][download][type] = file
 libraries[mootools][download][url] = http://mootools.net/download/get/mootools-core-1.4.5-full-compat-yc.js

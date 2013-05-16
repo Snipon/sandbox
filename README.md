@@ -9,8 +9,10 @@ and add:
     $aliases['sandbox'] = array(
       'uri' => 'loc.sandbox',
       'root' => '/srv/www/sandbox',
-      'make-file' => '/srv/make/sandbox_profile/sandbox.make'
+      'make-file' => '/srv/make/sandbox/sandbox.make'
     );
+
+You can also use your custom paths if desired.
 
 ##Run situs
     drush situs @sandbox
