@@ -10,7 +10,7 @@
 function sandbox_base_user_default_permissions() {
   $permissions = array();
 
-  // Exported permission: access content.
+  // Exported permission: 'access content'.
   $permissions['access content'] = array(
     'name' => 'access content',
     'roles' => array(

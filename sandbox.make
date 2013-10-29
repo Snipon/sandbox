@@ -31,14 +31,12 @@ projects[admin_menu][version] = "3.0-rc4"
 projects[libraries][subdir] = "contrib"
 projects[libraries][version] = "2.1"
 
-projects[themekey][subdir] = "contrib"
-projects[themekey][version] = "2.3"
-
 projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = 2.x-dev
+projects[jquery_update][version] = 2.3
 
 projects[panelizer][subdir] = "contrib"
 projects[panelizer][version] = 3.1
+
 
 projects[scald][subdir] = "contrib"
 projects[scald][version] = 1.1
