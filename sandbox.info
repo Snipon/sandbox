@@ -44,6 +44,8 @@ dependencies[] = views_content
 ;dependencies[] = jquery_update
 dependencies[] = panelizer
 dependencies[] = panels_ipe
+dependencies[] = scald
+dependencies[] = ckeditor
 
 ; Features
 dependencies[] = sandbox_base
