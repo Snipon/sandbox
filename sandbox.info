@@ -45,6 +45,14 @@ dependencies[] = views_content
 dependencies[] = panelizer
 dependencies[] = panels_ipe
 dependencies[] = scald
+  dependencies[] = atom_reference
+  dependencies[] = scald_dnd_lbirary
+  dependencies[] = scald_audio
+  dependencies[] = scald_image
+  dependencies[] = scald_flash
+  dependencies[] = scald_vimeo
+  dependencies[] = scald_youtube
+  dependencies[] = scald_dailymotions
 dependencies[] = ckeditor
 
 ; Features
