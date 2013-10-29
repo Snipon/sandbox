@@ -22,7 +22,7 @@ function sandbox_base_field_default_field_instances() {
         'module' => 'text',
         'settings' => array(),
         'type' => 'text_default',
-        'weight' => 1,
+        'weight' => 0,
       ),
       'teaser' => array(
         'label' => 'hidden',
@@ -39,10 +39,7 @@ function sandbox_base_field_default_field_instances() {
     'label' => 'Body',
     'required' => FALSE,
     'settings' => array(
-      'context' => '',
       'display_summary' => TRUE,
-      'dnd_enabled' => 0,
-      'mee_enabled' => 0,
       'text_processing' => 1,
       'user_register_form' => FALSE,
     ),
@@ -53,7 +50,7 @@ function sandbox_base_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 1,
+      'weight' => -4,
     ),
   );
 
