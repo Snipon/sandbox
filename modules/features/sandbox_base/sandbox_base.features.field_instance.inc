@@ -64,9 +64,8 @@ function sandbox_base_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'hidden',
-        'module' => 'atom_reference',
         'settings' => array(),
-        'type' => 'full',
+        'type' => 'hidden',
         'weight' => 0,
       ),
       'teaser' => array(
