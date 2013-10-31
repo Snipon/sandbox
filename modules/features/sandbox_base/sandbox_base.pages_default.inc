@@ -306,17 +306,11 @@ function sandbox_base_default_page_manager_pages() {
     $pane = new stdClass();
     $pane->pid = 'new-5';
     $pane->panel = 'main';
-    $pane->type = 'custom';
-    $pane->subtype = 'textfill';
+    $pane->type = 'views_panes';
+    $pane->subtype = 'contentlist-panel_pane_1';
     $pane->shown = TRUE;
     $pane->access = array();
-    $pane->configuration = array(
-      'admin_title' => '',
-      'title' => '',
-      'body' => '',
-      'format' => 'plain_text',
-      'substitute' => TRUE,
-    );
+    $pane->configuration = array();
     $pane->cache = array();
     $pane->style = array(
       'settings' => NULL,
